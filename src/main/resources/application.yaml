@@ -1,0 +1,11 @@
+spring:
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  jpa:
+    show-sql: true
+    database: postgresql
+  datasource:
+    username: postgres
+    password: password
+    url: jdbc:postgresql://localhost:5432/springdata
